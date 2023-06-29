@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = STLFileComparator
-build_property.ProjectDir = D:\Users\Pablo\Documents\Projetos\C#\file-3d-comparator\STLFileComparator\
+build_property.ProjectDir = D:\Users\Pablo\Documents\Projetos\C#\file-3d-comparator\src\STLFileComparator\

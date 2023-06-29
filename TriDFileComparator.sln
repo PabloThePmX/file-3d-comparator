@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STLFileComparator", "STLFileComparator\STLFileComparator.csproj", "{CC8DC86D-600C-4DC4-95C6-6F56616A5C4A}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7C7DABAD-2703-49B5-9BC2-0947B75DE615}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "STLFileComparator", "src\STLFileComparator\STLFileComparator.csproj", "{DD413989-E2AB-4C82-BA82-31A68637C617}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC8DC86D-600C-4DC4-95C6-6F56616A5C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC8DC86D-600C-4DC4-95C6-6F56616A5C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC8DC86D-600C-4DC4-95C6-6F56616A5C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC8DC86D-600C-4DC4-95C6-6F56616A5C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD413989-E2AB-4C82-BA82-31A68637C617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD413989-E2AB-4C82-BA82-31A68637C617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD413989-E2AB-4C82-BA82-31A68637C617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD413989-E2AB-4C82-BA82-31A68637C617}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CC8DC86D-600C-4DC4-95C6-6F56616A5C4A} = {7C7DABAD-2703-49B5-9BC2-0947B75DE615}
+		{DD413989-E2AB-4C82-BA82-31A68637C617} = {7C7DABAD-2703-49B5-9BC2-0947B75DE615}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4A85267-06DE-4C3C-AFC7-7F1E790A85A2}

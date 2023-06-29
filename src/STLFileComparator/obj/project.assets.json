@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\STLFileComparator\\STLFileComparator.csproj",
+      "projectUniqueName": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\src\\STLFileComparator\\STLFileComparator.csproj",
       "projectName": "STLFileComparator",
-      "projectPath": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\STLFileComparator\\STLFileComparator.csproj",
+      "projectPath": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\src\\STLFileComparator\\STLFileComparator.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\STLFileComparator\\obj\\",
+      "outputPath": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\src\\STLFileComparator\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
