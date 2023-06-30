@@ -8,16 +8,16 @@ namespace STLFileComparator
 {
     internal class InputFile
     {
-        private string _caminhoSTL;
+        private string _STLPath;
         
-        public string caminhoSTL
+        public string STLPath
         {
-            get { return _caminhoSTL; }
+            get { return _STLPath; }
             set
             {
-                if (string.IsNullOrEmpty(value) || Path.GetExtension(value).ToLower() == "stl")
+                if (string.IsNullOrEmpty(value) || Path.GetExtension(value).ToLower() != "stl")
                     throw new ArgumentException("Caminho Inválido");
-                _caminhoSTL = value;
+                _STLPath = value;
             }
         }
         public static InputFile GetPath()
@@ -25,9 +25,7 @@ namespace STLFileComparator
             InputFile inputFile = new InputFile();
 
             Console.WriteLine("Caminho STL: ");
-            string path = Console.ReadLine();
-
-            inputFile.caminhoSTL = path;
+            inputFile.STLPath = Console.ReadLine();
 
             return inputFile;
         }
