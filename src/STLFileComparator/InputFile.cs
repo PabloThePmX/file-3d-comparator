@@ -15,7 +15,7 @@ namespace STLFileComparator
             get { return _STLPath; }
             set
             {
-                if (string.IsNullOrEmpty(value) || Path.GetExtension(value).ToLower() != "stl")
+                if (string.IsNullOrEmpty(value) || Path.GetExtension(value).ToLower() != ".stl")
                     throw new ArgumentException("Caminho Inválido");
                 _STLPath = value;
             }

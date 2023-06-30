@@ -8,16 +8,21 @@ namespace STLFileComparator
 {
     internal class ReadSTL
     {
-        public string[] binario { get; set; }
-        public static string[] OpenSTL(string pathSTL)
+        public ReadSTL(params string[] files)
         {
-            ReadSTL openStlFile = new ReadSTL();
-
-            if (File.Exists(pathSTL))
+            foreach (var file in files)
             {
-                openStlFile.binario = File.ReadAllLines(pathSTL);
+                if (!File.Exists(file))
+                {
+                    throw new FileNotFoundException();
+                }
             }
-            return openStlFile.binario;
+        }
+
+        public byte[] OpenSTL(string STLPath)
+        {
+            byte[] STLbytes = File.ReadAllBytes(STLPath);
+            return STLbytes;
         }
     }
 }
