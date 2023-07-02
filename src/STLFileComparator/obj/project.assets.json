@@ -1,11 +1,57 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "QuantumConcepts.Formats.STL/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/STLdotNET.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/STLdotNET.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "QuantumConcepts.Formats.STL/2.0.1": {
+      "sha512": "RxTWb+sDbWEW3szJ8WXER9vRUYAza5w3Xqk5QAoAlLplO2qvH6hlw4GWTGLKhOHeQu/phnulAfmEHSsILHvdpw==",
+      "type": "package",
+      "path": "quantumconcepts.formats.stl/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "docs/LICENSE.txt",
+        "docs/README.md",
+        "images/QC-Logo.jpg",
+        "lib/net5.0/STLdotNET.dll",
+        "lib/net5.0/STLdotNET.pdb",
+        "lib/net5.0/STLdotNET.xml",
+        "lib/net6.0/STLdotNET.dll",
+        "lib/net6.0/STLdotNET.pdb",
+        "lib/net6.0/STLdotNET.xml",
+        "lib/netcoreapp3.1/STLdotNET.dll",
+        "lib/netcoreapp3.1/STLdotNET.pdb",
+        "lib/netcoreapp3.1/STLdotNET.xml",
+        "lib/netstandard2.0/STLdotNET.dll",
+        "lib/netstandard2.0/STLdotNET.pdb",
+        "lib/netstandard2.0/STLdotNET.xml",
+        "lib/netstandard2.1/STLdotNET.dll",
+        "lib/netstandard2.1/STLdotNET.pdb",
+        "lib/netstandard2.1/STLdotNET.xml",
+        "quantumconcepts.formats.stl.2.0.1.nupkg.sha512",
+        "quantumconcepts.formats.stl.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "QuantumConcepts.Formats.STL >= 2.0.1"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Pablo\\.nuget\\packages\\": {}
@@ -45,6 +91,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "QuantumConcepts.Formats.STL": {
+            "target": "Package",
+            "version": "[2.0.1, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zy6Xghe0hrm9cTbCTDKj+XQqO47qISt5sarA1elmJH83PXe+IMYA+ZU7dhfcxP2VWllPkUU//Qg1WqwUBg246Q==",
+  "dgSpecHash": "QculBHisWot44W3MEC0/saZhBkcMTgPeO1jk065bjd8XBwwGlcQ5Yj9fhSj15rbzGpHD0Tl2s/0fd6RNnSN4CQ==",
   "success": true,
   "projectFilePath": "D:\\Users\\Pablo\\Documents\\Projetos\\C#\\file-3d-comparator\\src\\STLFileComparator\\STLFileComparator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Pablo\\.nuget\\packages\\quantumconcepts.formats.stl\\2.0.1\\quantumconcepts.formats.stl.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -16,15 +16,19 @@ namespace STLFileComparator
             set
             {
                 if (string.IsNullOrEmpty(value) || Path.GetExtension(value).ToLower() != ".stl")
-                    throw new ArgumentException("Caminho Inválido");
+                    throw new ArgumentException("\nCaminho Inválido");
                 _STLPath = value;
             }
         }
-        public static InputFile GetPath()
+        public static InputFile GetPath(string tipo)
         {
             InputFile inputFile = new InputFile();
 
-            Console.WriteLine("Caminho STL: ");
+            if (tipo == "ref")
+                Console.Write("Insira o caminho para a peça de referência: ");
+            else if (tipo == "comp")
+                Console.Write("Insira o caminho para a peça a ser comparada: ");
+
             inputFile.STLPath = Console.ReadLine();
 
             return inputFile;
